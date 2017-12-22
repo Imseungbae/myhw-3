@@ -19,7 +19,7 @@ struct metadata
   // A pointer tto the data section
   char data[1];
 };
-
+// 여기까지??
 extern void *base;
 
 void* m_malloc(size_t size);
